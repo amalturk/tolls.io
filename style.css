@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fragment Mono', monospace;
+}
+
+
+.menu {
+    width: auto;
+    height: 1080px;
+    background-color: rgb(8, 207, 207);
+}
+
+.nav li {
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    padding: 30px;
+    left: 220px;
+    top: 25px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.nav {
+    width: 899px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 60px;
+
+
+}
+
+.nav li a:hover {
+    color: rgb(31, 18, 18);
+}
+
+.hdtext h1 {
+    margin-left: 120px;
+    color: blue;
+    font-size: 59px;
+    cursor: cell;
+}
+
+
+.nav .material-symbols-outlined {
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+
+.nav .material-symbols-outlined:hover {
+    color: white;
+}
+
+.heroimg span h1 {
+    color: rgb(44, 40, 40);
+    font-size: 100px;
+    margin-left: 900px;
+    position: absolute;
+    letter-spacing: -2px;
+    cursor: col-resize;
+
+}
+
+.aftermenu h1 {
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 800px;
+    justify-content: center;
+    color: white;
+    margin-top: 49px;
+}
+
+.aftermenu {
+    width: auto;
+    height: 699px;
+    background-color: rgb(34, 30, 30);
+    display: block;
+}
+
+.footer {
+    width: auto;
+    height: 70px;
+    background-color: rgb(17, 16, 16);
+   }
+
+.footer span {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 750px;
+    margin-top: 25px;
+}
+
+.menu .nav img{
+    width: 20%;
+    height: 180px;
+    position: absolute;
+    display: inline-block;
+    right: 30px
+}
